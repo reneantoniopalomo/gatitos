@@ -79,7 +79,7 @@
         android:layout_marginBottom="7dp"
         android:text="¡AGUAS CON EL GATO!"
         android:textColor="@android:color/black"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
