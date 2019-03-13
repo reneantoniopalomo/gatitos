@@ -70,19 +70,6 @@
         android:textSize="18sp"
         android:textStyle="italic" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=" NUESTROS PRODUCTOS"
-        android:textSize="18sp"
-        android:textStyle="italic" />
-
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -90,8 +77,21 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="7dp"
-        android:text="AGUAS CON EL GATO"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="¡AGUAS CON EL GATO!"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:fontFamily="cursive"
+        android:text=" NUESTROS PRODUCTOS"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
 </RelativeLayout>

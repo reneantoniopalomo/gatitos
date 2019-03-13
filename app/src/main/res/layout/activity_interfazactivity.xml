@@ -28,26 +28,27 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
         android:layout_marginTop="178dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="HISTORIA DE LA TIENDA"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="140dp"
-        android:layout_height="125dp"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
         android:background="@drawable/kep"
-        android:onClick="c"/>
+        android:onClick="c" />
 
     <TextView
         android:id="@+id/textView22"
@@ -56,18 +57,19 @@
         android:layout_alignBottom="@+id/textView21"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginEnd="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
         android:layout_marginBottom="-2dp"
-        android:text="CREDITOS"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="FUNDADORES"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="144dp"
-        android:layout_height="107dp"
+        android:layout_width="146dp"
+        android:layout_height="110dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
@@ -75,7 +77,7 @@
         android:layout_marginLeft="32dp"
         android:layout_marginBottom="154dp"
         android:background="@drawable/pu"
-        android:onClick="co"/>
+        android:onClick="co" />
 
     <TextView
         android:id="@+id/textView23"
@@ -84,12 +86,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginLeft="57dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
         android:layout_marginBottom="116dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="CONTACTO"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <Button
@@ -115,9 +118,10 @@
         android:layout_marginEnd="44dp"
         android:layout_marginRight="44dp"
         android:layout_marginBottom="0dp"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="PRODUCTOS"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
 </RelativeLayout>

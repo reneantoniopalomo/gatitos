@@ -19,26 +19,6 @@
         android:layout_marginTop="138dp"
         app:srcCompat="@drawable/c1" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_alignParentTop="true"
-
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="38dp"
-        android:layout_marginRight="38dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Camiseta Deadpool"
-
-        android:textColor="@android:color/background_light"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -50,8 +30,9 @@
         android:text="Tallas"
 
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:id="@+id/textView2"
@@ -60,14 +41,15 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="133dp"
-        android:layout_marginLeft="133dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
         android:layout_marginBottom="189dp"
         android:text="CH"
 
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:id="@+id/textView3"
@@ -76,13 +58,15 @@
         android:layout_alignTop="@+id/textView2"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="184dp"
-        android:layout_marginLeft="184dp"
-        android:text="MD"
+        android:layout_marginStart="186dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="0dp"
 
+        android:text="MD"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:id="@+id/textView6"
@@ -93,14 +77,15 @@
         android:layout_alignParentEnd="true"
 
         android:layout_alignParentRight="true"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="134dp"
-        android:layout_marginRight="134dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
         android:text="GD"
 
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:id="@+id/textView7"
@@ -109,10 +94,11 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="154dp"
-        android:text="Descripción: "
+        android:fontFamily="monospace"
 
+        android:text="Descripción: "
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
@@ -125,22 +111,23 @@
         android:text="Playera estampado al frente, con diseño teñido, manga corta y cuello redondo."
 
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/textView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="76dp"
-        android:text="TextView"
+        android:layout_marginBottom="8dp"
 
+        android:fontFamily="monospace"
+        android:text="Precio $"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        tools:text="Precio $" />
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView4"
@@ -148,13 +135,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp"
-        android:text="TextView"
+        android:layout_marginBottom="36dp"
+        android:text="150"
 
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        tools:text="150$" />
+        android:typeface="monospace" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -164,5 +151,19 @@
         android:layout_marginTop="0dp"
 
         app:srcCompat="@drawable/f2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="-33dp"
+        android:fontFamily="cursive"
+        android:text="Camiseta Deadpool"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

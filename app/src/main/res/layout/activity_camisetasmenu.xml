@@ -30,19 +30,6 @@
         android:onClick="T"/>
 
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=" NUESTRAS CAMISETAS"
-        android:textSize="18sp"
-        android:textStyle="italic" />
-
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
@@ -51,7 +38,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="7dp"
         android:text="AGUAS CON EL GATO"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button2"
@@ -100,5 +89,18 @@
         android:background="@drawable/c4"
         android:text=""
         android:onClick="k"/>
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:fontFamily="cursive"
+        android:text=" NUESTRAS CAMISETAS"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

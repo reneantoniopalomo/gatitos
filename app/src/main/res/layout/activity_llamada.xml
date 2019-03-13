@@ -14,9 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="AGUAS  CON EL GATO"
+        android:text="¡AGUAS  CON EL GATO!"
         android:textColor="@android:color/background_light"
-        android:textSize="24sp"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <ImageView
